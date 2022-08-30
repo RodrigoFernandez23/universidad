@@ -1,9 +1,7 @@
 #include <stdio.h>
-#define MAX_SIZE 10
-int main() {
-char cadena[MAX_SIZE];
-printf("Ingrese una cadena de caracteres \n");
-fgets(cadena, MAX_SIZE, stdin);
-printf("Cadena ingresada: %s \n", cadena);
-return 0;
+int main()
+{
+    printf("El resultado de sumar %d y %d es %d \n", 2,3,5);
+    return 0;
 }
+
